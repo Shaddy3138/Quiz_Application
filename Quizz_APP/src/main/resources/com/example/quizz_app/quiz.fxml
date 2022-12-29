@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="423.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quizz_app.QuizController">
+   <children>
+      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="43.0" text="1. How many consonants are there in the English alphabet?" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="354.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="43.0">
+         <font>
+            <Font name="Droid Sans Bold" size="22.0" />
+         </font></Label>
+      <Button fx:id="opt1" contentDisplay="CENTER" layoutX="43.0" layoutY="164.0" mnemonicParsing="false" onAction="#opt1clicked" prefHeight="63.0" prefWidth="264.0" style="-fx-background-color: lightblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button">
+         <font>
+            <Font name="Droid Sans" size="20.0" />
+         </font></Button>
+      <Button fx:id="opt2" layoutX="352.0" layoutY="164.0" mnemonicParsing="false" onAction="#opt2clicked" prefHeight="63.0" prefWidth="264.0" style="-fx-background-color: lightblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button">
+         <font>
+            <Font name="Droid Sans" size="20.0" />
+         </font></Button>
+      <Button fx:id="opt3" layoutX="43.0" layoutY="265.0" mnemonicParsing="false" onAction="#opt3clicked" prefHeight="63.0" prefWidth="264.0" style="-fx-background-color: lightblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button">
+         <font>
+            <Font name="Droid Sans" size="20.0" />
+         </font></Button>
+      <Button fx:id="opt4" layoutX="352.0" layoutY="265.0" mnemonicParsing="false" onAction="#opt4clicked" prefHeight="63.0" prefWidth="264.0" style="-fx-background-color: lightblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button">
+         <font>
+            <Font name="Droid Sans" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

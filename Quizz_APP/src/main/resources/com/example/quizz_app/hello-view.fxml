@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quizz_app.HomeController">
+   <children>
+      <Label layoutX="220.0" layoutY="48.0" prefHeight="39.0" prefWidth="161.0" text="Quizz APP" textFill="#393737">
+         <font>
+            <Font name="Droid Sans Bold" size="30.0" />
+         </font></Label>
+      <Button fx:id="playquizbtn" layoutX="163.0" layoutY="200.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="274.0" style="-fx-background-color: lightblue; -fx-background-radius: 32px;" text="PLAY!">
+         <font>
+            <Font name="Droid Sans Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
